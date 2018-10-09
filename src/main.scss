@@ -20,6 +20,7 @@ body {
   background-color: #eee;
   overflow: auto;
   padding-top: 5px;
+  -webkit-print-color-adjust: exact;
   @media screen and (max-width: 1024px) {
     padding-top: 0;
   }
@@ -302,6 +303,13 @@ a {
   }
   .item-bd {
     margin-bottom: 5px;
+  }
+  .item-ul-more{
+    margin: 5px 20px;
+  }
+  .link{
+    margin: 5px;
+    float: right;
   }
   .item-des {
     margin-bottom: 16px;
